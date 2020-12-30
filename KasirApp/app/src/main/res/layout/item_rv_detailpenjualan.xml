@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/design_default_color_secondary">
+
+    <TextView
+        android:id="@+id/tv_namabrgdetailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Nama Barang:"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_namabrgdetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Nama Barang"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintTop_toBottomOf="@id/tv_namabrgdetailTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_jmlhbrgdetailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:text="Total Barang:"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        app:layout_constraintTop_toBottomOf="@+id/tv_namabrgdetail"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_jmlhbrgdetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif"
+        android:text="Total"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_jmlhbrgdetailTitle" />
+
+    <TextView
+        android:id="@+id/tv_totalhargadetailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:text="Total Harga:"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_totalhargadetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif"
+        android:text="Total"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_totalhargadetailTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
